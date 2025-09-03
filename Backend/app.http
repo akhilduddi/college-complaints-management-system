@@ -1,0 +1,9 @@
+POST http://localhost:7800/api/admin/register
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin123",
+    "name": "Admin User",
+    "email": "admin@college.edu"
+}
